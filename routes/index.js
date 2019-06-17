@@ -22,6 +22,10 @@ router.get('/Projects', (req, res, next) => {
   res.render('Projects', {});
 });
 
+router.get('/Contact', (req, res, next) => {
+  res.render('Contact', {});
+});
+
 
 
 
