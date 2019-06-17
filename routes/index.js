@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/About', (req, res, next) => {
-  res.render('About', {});
+  res.render('About', { age: 20});
 });
 
 router.get('/Skills', (req, res, next) => {

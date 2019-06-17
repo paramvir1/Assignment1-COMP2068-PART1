@@ -1,5 +1,14 @@
-a(href="/index") Paramvir
-a(href="/About") About 
-a(href="/Skills") Skills
-a(href="/Work") Work
-a(href="/Projects") Projects
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') Navbar
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarSupportedContent.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+        li.nav-item.active
+            a.nav-link(href='/About') About
+        li.nav-item.active
+            a.nav-link(href='/Skills') Skills
+        li.nav-item.active
+            a.nav-link(href='/Projects') Projects
+        li.nav-item.active
+            a.nav-link(href='/Work') Work  
