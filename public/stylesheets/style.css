@@ -1,6 +1,14 @@
+/* style.css
+Paramvir Atwal
+reference for button animation for social media links 
+https://www.youtube.com/watch?v=fDm0WJ_66d0
+
+this file is for the styling for the website to make the site look more intuitive 
+*/
+
 body {
   background: #648880;
-  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);/* adding the gradient background theme*/
 }
 
 p {
@@ -17,11 +25,12 @@ h3:hover, h2:hover {
   color: #f1f1f1;
   animation: aaa 0.7s 1;
   top: -10%;
-  left: -10%;
+  left: -10%;/*adding the hover animation on the nav links*/
 
 }
 
 .centre{
+  
   height: 10em;
   position: relative;
   margin: 0;
@@ -90,6 +99,7 @@ h1 {
     padding-bottom: 10px; /* Add bottom padding */
     color: white; /* White text color */
   }
+ 
   .middle{
     position: absolute;
     top: 50%;
@@ -97,6 +107,7 @@ h1 {
     width: 100%;
     text-align: center;
   }
+   /* adding the buttons for contact information */
   .btn{
     display: inline-block;
     width: 90px;
@@ -131,7 +142,7 @@ h1 {
   .btn:hover::before{
     animation: aaa 0.7s 1;
     top: -10%;
-    left: -10%;
+    left: -10%; /* hover animation  */
   }
   @keyframes aaa {
     0%{
@@ -139,10 +150,7 @@ h1 {
       top: 90%;
     }50%{
       left: 10%;
-      top: -30%;
-    }100%{
-      top: -10%;
-      left: -10%;
+      top: -30%; /* creates the blue movement on the buttons*/
     }
   }
   
